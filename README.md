@@ -1,4 +1,4 @@
-# ZEGA - A command line encrypted-file-sharing protocol using ZecWallet light client.
+# ZEGA - A command line encrypted-file-sharing CLI using ZecWallet light client.
 
 Yes, you don't need a Zcash full-node
 
