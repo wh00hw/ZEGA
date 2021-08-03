@@ -4,13 +4,13 @@ Yes, you don't need a Zcash full-node
 
 ![Screenshot](screenshot.png)
 
-## How it works:
+## How it works
 
 ### Shielded Transactions
 
 In Zcash, a 500 bytes memo field is available for shielded transactions. This allows the sender to include relevant information to the receiver, completely encrypted.
 A z2z transaction appears on the public blockchain, so it is known to have occured and that the fees were paid. But the addresses, transaction amount and the memo field are all encrypted and not publicly visible. The z-address owner has the option to disclose all incoming transactions and the memo field, with the related viewing key.
-Zega exploits this providing encrypted-file upload and download functions.
+ZEGA exploits this providing encrypted-file upload and download functions.
 
 ### Light client
 
@@ -18,7 +18,7 @@ ZEGA relies to a `zecwallet-cli` by generating a local zcash wallet that works a
 
 ### Upload
 
-ZEGA splits the file into parts of 500 bytes, for each it sends a shielded transaction appending the part in the memo field. ZEGA generate a new z-address for each file upload but you can provide an external z-address.
+ZEGA splits the file into parts of 500 bytes, for each it sends a shielded transaction appending the part in the memo field. ZEGA generates a new z-address for each file upload but you can provide an external z-address.
 
 ### Download
 
@@ -115,7 +115,7 @@ $ python3 zega.py download --zaddr ztestsapling1xsvunsm5lkae9lrxqvdupezdzyt3s9s2
 
 ```
 ### Disclaimer
-Zega it's a very unstable experiment:
+ZEGA it's a very unstable experiment:
 * USE IT ON TESTNET --testnet
 * Feel free to support and contribute to the project
 
